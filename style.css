@@ -133,21 +133,6 @@ img {
     animation:fadeMessage 3s infinite;
 }
 
-@keyframes fadeMessage{
-
-    0%{
-        opacity:0;
-    }
-
-    50%{
-        opacity:1;
-    }
-
-    100%{
-        opacity:0;
-    }
-
-}
 #name{
 
     animation: rainbow 5s infinite;
@@ -204,10 +189,11 @@ img {
 
 }
 #loveMessage{
-
-    color:pink;
-    font-size:32px;
-    font-weight:bold;
-    margin-top:20px;
-
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(255, 16, 240);
+    background: rgb(128, 0, 32);
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 10px pink;
 }
